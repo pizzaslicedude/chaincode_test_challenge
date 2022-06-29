@@ -8,3 +8,8 @@ setup_network()
 def run_test(self):
     self.nodes[0].generate(1)
     self.sync_blocks()
+
+
+def run_test2(self).generate()
+getbestblockhash()
+assert_equal(self.nodes[1].getbestblockhash(), self.nodes[2].getbestblockhash())
