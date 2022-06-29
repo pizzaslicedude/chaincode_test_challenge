@@ -1,0 +1,10 @@
+test/functional/feature_rbf.py
+test/functional/test_runner.py test/functional/wallet*
+functional/test_runner.py functional/wallet*
+test_runner.py wallet*
+
+setup_network()
+
+def run_test(self):
+    self.nodes[0].generate(1)
+    self.sync_blocks()
